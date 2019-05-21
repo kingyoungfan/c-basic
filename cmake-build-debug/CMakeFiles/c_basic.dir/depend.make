@@ -9,5 +9,7 @@ CMakeFiles/c_basic.dir/src/point.c.o: ../src/point.c
 
 CMakeFiles/c_basic.dir/src/quick-sort.c.o: ../src/quick-sort.c
 
+CMakeFiles/c_basic.dir/src/str.c.o: ../src/str.c
+
 CMakeFiles/c_basic.dir/src/support.c.o: ../src/support.c
 

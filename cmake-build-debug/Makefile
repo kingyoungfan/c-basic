@@ -231,6 +231,33 @@ src/quick-sort.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/quick-sort.c.s
 .PHONY : src/quick-sort.c.s
 
+src/str.o: src/str.c.o
+
+.PHONY : src/str.o
+
+# target to build an object file
+src/str.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/str.c.o
+.PHONY : src/str.c.o
+
+src/str.i: src/str.c.i
+
+.PHONY : src/str.i
+
+# target to preprocess a source file
+src/str.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/str.c.i
+.PHONY : src/str.c.i
+
+src/str.s: src/str.c.s
+
+.PHONY : src/str.s
+
+# target to generate assembly for a file
+src/str.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/str.c.s
+.PHONY : src/str.c.s
+
 src/support.o: src/support.c.o
 
 .PHONY : src/support.o
@@ -279,6 +306,9 @@ help:
 	@echo "... src/quick-sort.o"
 	@echo "... src/quick-sort.i"
 	@echo "... src/quick-sort.s"
+	@echo "... src/str.o"
+	@echo "... src/str.i"
+	@echo "... src/str.s"
 	@echo "... src/support.o"
 	@echo "... src/support.i"
 	@echo "... src/support.s"

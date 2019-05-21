@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/yangyang/workspace/personal/c-basic/src/main.c" "/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/c_basic.dir/src/main.c.o"
   "/Users/yangyang/workspace/personal/c-basic/src/point.c" "/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/c_basic.dir/src/point.c.o"
   "/Users/yangyang/workspace/personal/c-basic/src/quick-sort.c" "/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/c_basic.dir/src/quick-sort.c.o"
+  "/Users/yangyang/workspace/personal/c-basic/src/str.c" "/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/c_basic.dir/src/str.c.o"
   "/Users/yangyang/workspace/personal/c-basic/src/support.c" "/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/c_basic.dir/src/support.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

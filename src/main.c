@@ -19,6 +19,12 @@ void quick_sort_recursive(int arr[], int start, int end);
 // 函数声明：指针练习
 void point_test();
 
+// 函数声明：函数指针
+void fun_point();
+
+// 函数声明：字符串练习
+void str_test();
+
 
 int main() {
     /* int balance[] = {1000, 2, 3, 7, 50}; */
@@ -42,6 +48,6 @@ int main() {
         printf("Element[%d] = %d\n", i, balance[i]);
     }
     */
-    point_test();
+    str_test();
     return 0;
 }
