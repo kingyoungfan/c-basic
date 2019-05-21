@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/yangyang/workspace/personal/c-basic/support.c
+/Users/yangyang/workspace/personal/c-basic/src/main.c
+stdio.h
+-
+
+/Users/yangyang/workspace/personal/c-basic/src/support.c
 stdio.h
 -
 

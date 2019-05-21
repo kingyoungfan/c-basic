@@ -123,59 +123,59 @@ c_basic/fast:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/build
 .PHONY : c_basic/fast
 
-main.o: main.c.o
+src/main.o: src/main.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/main.c.s
-.PHONY : main.c.s
-
-support.o: support.c.o
-
-.PHONY : support.o
+.PHONY : src/main.o
 
 # target to build an object file
-support.c.o:
-	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/support.c.o
-.PHONY : support.c.o
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-support.i: support.c.i
+src/main.i: src/main.c.i
 
-.PHONY : support.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-support.c.i:
-	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/support.c.i
-.PHONY : support.c.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-support.s: support.c.s
+src/main.s: src/main.c.s
 
-.PHONY : support.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-support.c.s:
-	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/support.c.s
-.PHONY : support.c.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/support.o: src/support.c.o
+
+.PHONY : src/support.o
+
+# target to build an object file
+src/support.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/support.c.o
+.PHONY : src/support.c.o
+
+src/support.i: src/support.c.i
+
+.PHONY : src/support.i
+
+# target to preprocess a source file
+src/support.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/support.c.i
+.PHONY : src/support.c.i
+
+src/support.s: src/support.c.s
+
+.PHONY : src/support.s
+
+# target to generate assembly for a file
+src/support.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/support.c.s
+.PHONY : src/support.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... c_basic"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... support.o"
-	@echo "... support.i"
-	@echo "... support.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/support.o"
+	@echo "... src/support.i"
+	@echo "... src/support.s"
 .PHONY : help
 
 
