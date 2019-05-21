@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/c_basic.dir/main.c.o"
+  "CMakeFiles/c_basic.dir/support.c.o"
   "c_basic.pdb"
   "c_basic"
 )

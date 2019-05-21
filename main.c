@@ -5,9 +5,11 @@ int sum(int a, int b) {
     return a + b;
 }
 
+int count;
+
+void write_extern();
+
 int main() {
-    printf("Hello, World!\n");
-    int a = 2, b = 3;
-    printf("a + b = %d", sum(a, b));
-    return 0;
+    count = 5;
+    write_extern();
 }

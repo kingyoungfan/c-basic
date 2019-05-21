@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/main.c.s
 .PHONY : main.c.s
 
+support.o: support.c.o
+
+.PHONY : support.o
+
+# target to build an object file
+support.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/support.c.o
+.PHONY : support.c.o
+
+support.i: support.c.i
+
+.PHONY : support.i
+
+# target to preprocess a source file
+support.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/support.c.i
+.PHONY : support.c.i
+
+support.s: support.c.s
+
+.PHONY : support.s
+
+# target to generate assembly for a file
+support.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/support.c.s
+.PHONY : support.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... support.o"
+	@echo "... support.i"
+	@echo "... support.s"
 .PHONY : help
 
 

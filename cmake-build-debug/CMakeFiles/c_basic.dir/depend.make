@@ -3,3 +3,5 @@
 
 CMakeFiles/c_basic.dir/main.c.o: ../main.c
 
+CMakeFiles/c_basic.dir/support.c.o: ../support.c
+

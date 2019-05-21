@@ -81,6 +81,9 @@
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/main.c">
 			<Option target="c_basic"/>
 		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/support.c">
+			<Option target="c_basic"/>
+		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

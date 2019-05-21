@@ -3,4 +3,4 @@ project(c_basic C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_basic main.c)
+add_executable(c_basic main.c support.c)
