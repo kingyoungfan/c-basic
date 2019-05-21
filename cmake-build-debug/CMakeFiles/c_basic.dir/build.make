@@ -83,19 +83,64 @@ CMakeFiles/c_basic.dir/src/support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/support.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/support.c -o CMakeFiles/c_basic.dir/src/support.c.s
 
+CMakeFiles/c_basic.dir/src/quick-sort.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/quick-sort.c.o: ../src/quick-sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c_basic.dir/src/quick-sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/quick-sort.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/quick-sort.c
+
+CMakeFiles/c_basic.dir/src/quick-sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/quick-sort.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/quick-sort.c > CMakeFiles/c_basic.dir/src/quick-sort.c.i
+
+CMakeFiles/c_basic.dir/src/quick-sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/quick-sort.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/quick-sort.c -o CMakeFiles/c_basic.dir/src/quick-sort.c.s
+
+CMakeFiles/c_basic.dir/src/day-enum.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/day-enum.c.o: ../src/day-enum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/c_basic.dir/src/day-enum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/day-enum.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/day-enum.c
+
+CMakeFiles/c_basic.dir/src/day-enum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/day-enum.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/day-enum.c > CMakeFiles/c_basic.dir/src/day-enum.c.i
+
+CMakeFiles/c_basic.dir/src/day-enum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/day-enum.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/day-enum.c -o CMakeFiles/c_basic.dir/src/day-enum.c.s
+
+CMakeFiles/c_basic.dir/src/point.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/point.c.o: ../src/point.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/c_basic.dir/src/point.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/point.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/point.c
+
+CMakeFiles/c_basic.dir/src/point.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/point.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/point.c > CMakeFiles/c_basic.dir/src/point.c.i
+
+CMakeFiles/c_basic.dir/src/point.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/point.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/point.c -o CMakeFiles/c_basic.dir/src/point.c.s
+
 # Object files for target c_basic
 c_basic_OBJECTS = \
 "CMakeFiles/c_basic.dir/src/main.c.o" \
-"CMakeFiles/c_basic.dir/src/support.c.o"
+"CMakeFiles/c_basic.dir/src/support.c.o" \
+"CMakeFiles/c_basic.dir/src/quick-sort.c.o" \
+"CMakeFiles/c_basic.dir/src/day-enum.c.o" \
+"CMakeFiles/c_basic.dir/src/point.c.o"
 
 # External object files for target c_basic
 c_basic_EXTERNAL_OBJECTS =
 
 c_basic: CMakeFiles/c_basic.dir/src/main.c.o
 c_basic: CMakeFiles/c_basic.dir/src/support.c.o
+c_basic: CMakeFiles/c_basic.dir/src/quick-sort.c.o
+c_basic: CMakeFiles/c_basic.dir/src/day-enum.c.o
+c_basic: CMakeFiles/c_basic.dir/src/point.c.o
 c_basic: CMakeFiles/c_basic.dir/build.make
 c_basic: CMakeFiles/c_basic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable c_basic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable c_basic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_basic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

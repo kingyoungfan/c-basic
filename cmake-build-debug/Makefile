@@ -123,6 +123,33 @@ c_basic/fast:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/build
 .PHONY : c_basic/fast
 
+src/day-enum.o: src/day-enum.c.o
+
+.PHONY : src/day-enum.o
+
+# target to build an object file
+src/day-enum.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/day-enum.c.o
+.PHONY : src/day-enum.c.o
+
+src/day-enum.i: src/day-enum.c.i
+
+.PHONY : src/day-enum.i
+
+# target to preprocess a source file
+src/day-enum.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/day-enum.c.i
+.PHONY : src/day-enum.c.i
+
+src/day-enum.s: src/day-enum.c.s
+
+.PHONY : src/day-enum.s
+
+# target to generate assembly for a file
+src/day-enum.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/day-enum.c.s
+.PHONY : src/day-enum.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -149,6 +176,60 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/point.o: src/point.c.o
+
+.PHONY : src/point.o
+
+# target to build an object file
+src/point.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/point.c.o
+.PHONY : src/point.c.o
+
+src/point.i: src/point.c.i
+
+.PHONY : src/point.i
+
+# target to preprocess a source file
+src/point.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/point.c.i
+.PHONY : src/point.c.i
+
+src/point.s: src/point.c.s
+
+.PHONY : src/point.s
+
+# target to generate assembly for a file
+src/point.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/point.c.s
+.PHONY : src/point.c.s
+
+src/quick-sort.o: src/quick-sort.c.o
+
+.PHONY : src/quick-sort.o
+
+# target to build an object file
+src/quick-sort.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/quick-sort.c.o
+.PHONY : src/quick-sort.c.o
+
+src/quick-sort.i: src/quick-sort.c.i
+
+.PHONY : src/quick-sort.i
+
+# target to preprocess a source file
+src/quick-sort.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/quick-sort.c.i
+.PHONY : src/quick-sort.c.i
+
+src/quick-sort.s: src/quick-sort.c.s
+
+.PHONY : src/quick-sort.s
+
+# target to generate assembly for a file
+src/quick-sort.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/quick-sort.c.s
+.PHONY : src/quick-sort.c.s
 
 src/support.o: src/support.c.o
 
@@ -186,9 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... c_basic"
+	@echo "... src/day-enum.o"
+	@echo "... src/day-enum.i"
+	@echo "... src/day-enum.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/point.o"
+	@echo "... src/point.i"
+	@echo "... src/point.s"
+	@echo "... src/quick-sort.o"
+	@echo "... src/quick-sort.i"
+	@echo "... src/quick-sort.s"
 	@echo "... src/support.o"
 	@echo "... src/support.i"
 	@echo "... src/support.s"
