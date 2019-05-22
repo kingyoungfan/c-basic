@@ -123,6 +123,33 @@ c_basic/fast:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/build
 .PHONY : c_basic/fast
 
+src/bit-fields.o: src/bit-fields.c.o
+
+.PHONY : src/bit-fields.o
+
+# target to build an object file
+src/bit-fields.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/bit-fields.c.o
+.PHONY : src/bit-fields.c.o
+
+src/bit-fields.i: src/bit-fields.c.i
+
+.PHONY : src/bit-fields.i
+
+# target to preprocess a source file
+src/bit-fields.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/bit-fields.c.i
+.PHONY : src/bit-fields.c.i
+
+src/bit-fields.s: src/bit-fields.c.s
+
+.PHONY : src/bit-fields.s
+
+# target to generate assembly for a file
+src/bit-fields.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/bit-fields.c.s
+.PHONY : src/bit-fields.c.s
+
 src/day-enum.o: src/day-enum.c.o
 
 .PHONY : src/day-enum.o
@@ -258,6 +285,33 @@ src/str.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/str.c.s
 .PHONY : src/str.c.s
 
+src/struct.o: src/struct.c.o
+
+.PHONY : src/struct.o
+
+# target to build an object file
+src/struct.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/struct.c.o
+.PHONY : src/struct.c.o
+
+src/struct.i: src/struct.c.i
+
+.PHONY : src/struct.i
+
+# target to preprocess a source file
+src/struct.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/struct.c.i
+.PHONY : src/struct.c.i
+
+src/struct.s: src/struct.c.s
+
+.PHONY : src/struct.s
+
+# target to generate assembly for a file
+src/struct.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/struct.c.s
+.PHONY : src/struct.c.s
+
 src/support.o: src/support.c.o
 
 .PHONY : src/support.o
@@ -285,6 +339,33 @@ src/support.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/support.c.s
 .PHONY : src/support.c.s
 
+src/unions.o: src/unions.c.o
+
+.PHONY : src/unions.o
+
+# target to build an object file
+src/unions.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/unions.c.o
+.PHONY : src/unions.c.o
+
+src/unions.i: src/unions.c.i
+
+.PHONY : src/unions.i
+
+# target to preprocess a source file
+src/unions.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/unions.c.i
+.PHONY : src/unions.c.i
+
+src/unions.s: src/unions.c.s
+
+.PHONY : src/unions.s
+
+# target to generate assembly for a file
+src/unions.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/unions.c.s
+.PHONY : src/unions.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -294,6 +375,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... c_basic"
+	@echo "... src/bit-fields.o"
+	@echo "... src/bit-fields.i"
+	@echo "... src/bit-fields.s"
 	@echo "... src/day-enum.o"
 	@echo "... src/day-enum.i"
 	@echo "... src/day-enum.s"
@@ -309,9 +393,15 @@ help:
 	@echo "... src/str.o"
 	@echo "... src/str.i"
 	@echo "... src/str.s"
+	@echo "... src/struct.o"
+	@echo "... src/struct.i"
+	@echo "... src/struct.s"
 	@echo "... src/support.o"
 	@echo "... src/support.i"
 	@echo "... src/support.s"
+	@echo "... src/unions.o"
+	@echo "... src/unions.i"
+	@echo "... src/unions.s"
 .PHONY : help
 
 

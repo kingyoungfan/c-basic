@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_basic.dir/src/day-enum.c.o"
   "CMakeFiles/c_basic.dir/src/point.c.o"
   "CMakeFiles/c_basic.dir/src/str.c.o"
+  "CMakeFiles/c_basic.dir/src/struct.c.o"
+  "CMakeFiles/c_basic.dir/src/unions.c.o"
+  "CMakeFiles/c_basic.dir/src/bit-fields.c.o"
   "c_basic.pdb"
   "c_basic"
 )

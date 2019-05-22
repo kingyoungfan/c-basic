@@ -135,6 +135,45 @@ CMakeFiles/c_basic.dir/src/str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/str.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/str.c -o CMakeFiles/c_basic.dir/src/str.c.s
 
+CMakeFiles/c_basic.dir/src/struct.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/struct.c.o: ../src/struct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/c_basic.dir/src/struct.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/struct.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/struct.c
+
+CMakeFiles/c_basic.dir/src/struct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/struct.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/struct.c > CMakeFiles/c_basic.dir/src/struct.c.i
+
+CMakeFiles/c_basic.dir/src/struct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/struct.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/struct.c -o CMakeFiles/c_basic.dir/src/struct.c.s
+
+CMakeFiles/c_basic.dir/src/unions.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/unions.c.o: ../src/unions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/c_basic.dir/src/unions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/unions.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/unions.c
+
+CMakeFiles/c_basic.dir/src/unions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/unions.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/unions.c > CMakeFiles/c_basic.dir/src/unions.c.i
+
+CMakeFiles/c_basic.dir/src/unions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/unions.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/unions.c -o CMakeFiles/c_basic.dir/src/unions.c.s
+
+CMakeFiles/c_basic.dir/src/bit-fields.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/bit-fields.c.o: ../src/bit-fields.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/c_basic.dir/src/bit-fields.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/bit-fields.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/bit-fields.c
+
+CMakeFiles/c_basic.dir/src/bit-fields.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/bit-fields.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/bit-fields.c > CMakeFiles/c_basic.dir/src/bit-fields.c.i
+
+CMakeFiles/c_basic.dir/src/bit-fields.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/bit-fields.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/bit-fields.c -o CMakeFiles/c_basic.dir/src/bit-fields.c.s
+
 # Object files for target c_basic
 c_basic_OBJECTS = \
 "CMakeFiles/c_basic.dir/src/main.c.o" \
@@ -142,7 +181,10 @@ c_basic_OBJECTS = \
 "CMakeFiles/c_basic.dir/src/quick-sort.c.o" \
 "CMakeFiles/c_basic.dir/src/day-enum.c.o" \
 "CMakeFiles/c_basic.dir/src/point.c.o" \
-"CMakeFiles/c_basic.dir/src/str.c.o"
+"CMakeFiles/c_basic.dir/src/str.c.o" \
+"CMakeFiles/c_basic.dir/src/struct.c.o" \
+"CMakeFiles/c_basic.dir/src/unions.c.o" \
+"CMakeFiles/c_basic.dir/src/bit-fields.c.o"
 
 # External object files for target c_basic
 c_basic_EXTERNAL_OBJECTS =
@@ -153,9 +195,12 @@ c_basic: CMakeFiles/c_basic.dir/src/quick-sort.c.o
 c_basic: CMakeFiles/c_basic.dir/src/day-enum.c.o
 c_basic: CMakeFiles/c_basic.dir/src/point.c.o
 c_basic: CMakeFiles/c_basic.dir/src/str.c.o
+c_basic: CMakeFiles/c_basic.dir/src/struct.c.o
+c_basic: CMakeFiles/c_basic.dir/src/unions.c.o
+c_basic: CMakeFiles/c_basic.dir/src/bit-fields.c.o
 c_basic: CMakeFiles/c_basic.dir/build.make
 c_basic: CMakeFiles/c_basic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable c_basic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable c_basic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_basic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

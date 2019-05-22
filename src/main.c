@@ -25,6 +25,19 @@ void fun_point();
 // 函数声明：字符串练习
 void str_test();
 
+// 函数声明：使用结构体
+void use_struct();
+
+void use_book();
+
+// 函数声明：打印图书
+void print_book();
+
+// 函数声明：定义共用体
+void unions();
+
+// 函数声明：位域
+void bit_filed();
 
 int main() {
     /* int balance[] = {1000, 2, 3, 7, 50}; */
@@ -48,6 +61,6 @@ int main() {
         printf("Element[%d] = %d\n", i, balance[i]);
     }
     */
-    str_test();
+    bit_filed();
     return 0;
 }

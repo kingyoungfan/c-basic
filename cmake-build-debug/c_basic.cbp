@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/bit-fields.c">
+			<Option target="c_basic"/>
+		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/day-enum.c">
 			<Option target="c_basic"/>
 		</Unit>
@@ -93,7 +96,13 @@
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/str.c">
 			<Option target="c_basic"/>
 		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/struct.c">
+			<Option target="c_basic"/>
+		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/support.c">
+			<Option target="c_basic"/>
+		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/unions.c">
 			<Option target="c_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/CMakeLists.txt">

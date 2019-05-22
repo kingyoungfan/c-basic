@@ -6,17 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/yangyang/workspace/personal/c-basic/src/main.c
+/Users/yangyang/workspace/personal/c-basic/src/bit-fields.c
 stdio.h
--
-
-/Users/yangyang/workspace/personal/c-basic/src/point.c
-stdio.h
--
-
-/Users/yangyang/workspace/personal/c-basic/src/str.c
-stdio.h
--
-string.h
 -
 
