@@ -5,9 +5,15 @@ CMakeFiles/c_basic.dir/src/bit-fields.c.o: ../src/bit-fields.c
 
 CMakeFiles/c_basic.dir/src/day-enum.c.o: ../src/day-enum.c
 
+CMakeFiles/c_basic.dir/src/file.c.o: ../src/file.c
+
+CMakeFiles/c_basic.dir/src/io.c.o: ../src/io.c
+
 CMakeFiles/c_basic.dir/src/main.c.o: ../src/main.c
 
 CMakeFiles/c_basic.dir/src/point.c.o: ../src/point.c
+
+CMakeFiles/c_basic.dir/src/pre.c.o: ../src/pre.c
 
 CMakeFiles/c_basic.dir/src/quick-sort.c.o: ../src/quick-sort.c
 
@@ -16,6 +22,8 @@ CMakeFiles/c_basic.dir/src/str.c.o: ../src/str.c
 CMakeFiles/c_basic.dir/src/struct.c.o: ../src/struct.c
 
 CMakeFiles/c_basic.dir/src/support.c.o: ../src/support.c
+
+CMakeFiles/c_basic.dir/src/type-def.c.o: ../src/type-def.c
 
 CMakeFiles/c_basic.dir/src/unions.c.o: ../src/unions.c
 

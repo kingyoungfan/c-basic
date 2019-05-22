@@ -8,6 +8,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_basic.dir/src/struct.c.o"
   "CMakeFiles/c_basic.dir/src/unions.c.o"
   "CMakeFiles/c_basic.dir/src/bit-fields.c.o"
+  "CMakeFiles/c_basic.dir/src/type-def.c.o"
+  "CMakeFiles/c_basic.dir/src/io.c.o"
+  "CMakeFiles/c_basic.dir/src/file.c.o"
+  "CMakeFiles/c_basic.dir/src/pre.c.o"
   "c_basic.pdb"
   "c_basic"
 )

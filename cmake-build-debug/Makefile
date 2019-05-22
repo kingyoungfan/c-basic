@@ -177,6 +177,60 @@ src/day-enum.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/day-enum.c.s
 .PHONY : src/day-enum.c.s
 
+src/file.o: src/file.c.o
+
+.PHONY : src/file.o
+
+# target to build an object file
+src/file.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/file.c.o
+.PHONY : src/file.c.o
+
+src/file.i: src/file.c.i
+
+.PHONY : src/file.i
+
+# target to preprocess a source file
+src/file.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/file.c.i
+.PHONY : src/file.c.i
+
+src/file.s: src/file.c.s
+
+.PHONY : src/file.s
+
+# target to generate assembly for a file
+src/file.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/file.c.s
+.PHONY : src/file.c.s
+
+src/io.o: src/io.c.o
+
+.PHONY : src/io.o
+
+# target to build an object file
+src/io.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/io.c.o
+.PHONY : src/io.c.o
+
+src/io.i: src/io.c.i
+
+.PHONY : src/io.i
+
+# target to preprocess a source file
+src/io.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/io.c.i
+.PHONY : src/io.c.i
+
+src/io.s: src/io.c.s
+
+.PHONY : src/io.s
+
+# target to generate assembly for a file
+src/io.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/io.c.s
+.PHONY : src/io.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -230,6 +284,33 @@ src/point.s: src/point.c.s
 src/point.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/point.c.s
 .PHONY : src/point.c.s
+
+src/pre.o: src/pre.c.o
+
+.PHONY : src/pre.o
+
+# target to build an object file
+src/pre.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/pre.c.o
+.PHONY : src/pre.c.o
+
+src/pre.i: src/pre.c.i
+
+.PHONY : src/pre.i
+
+# target to preprocess a source file
+src/pre.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/pre.c.i
+.PHONY : src/pre.c.i
+
+src/pre.s: src/pre.c.s
+
+.PHONY : src/pre.s
+
+# target to generate assembly for a file
+src/pre.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/pre.c.s
+.PHONY : src/pre.c.s
 
 src/quick-sort.o: src/quick-sort.c.o
 
@@ -339,6 +420,33 @@ src/support.c.s:
 	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/support.c.s
 .PHONY : src/support.c.s
 
+src/type-def.o: src/type-def.c.o
+
+.PHONY : src/type-def.o
+
+# target to build an object file
+src/type-def.c.o:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/type-def.c.o
+.PHONY : src/type-def.c.o
+
+src/type-def.i: src/type-def.c.i
+
+.PHONY : src/type-def.i
+
+# target to preprocess a source file
+src/type-def.c.i:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/type-def.c.i
+.PHONY : src/type-def.c.i
+
+src/type-def.s: src/type-def.c.s
+
+.PHONY : src/type-def.s
+
+# target to generate assembly for a file
+src/type-def.c.s:
+	$(MAKE) -f CMakeFiles/c_basic.dir/build.make CMakeFiles/c_basic.dir/src/type-def.c.s
+.PHONY : src/type-def.c.s
+
 src/unions.o: src/unions.c.o
 
 .PHONY : src/unions.o
@@ -381,12 +489,21 @@ help:
 	@echo "... src/day-enum.o"
 	@echo "... src/day-enum.i"
 	@echo "... src/day-enum.s"
+	@echo "... src/file.o"
+	@echo "... src/file.i"
+	@echo "... src/file.s"
+	@echo "... src/io.o"
+	@echo "... src/io.i"
+	@echo "... src/io.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/point.o"
 	@echo "... src/point.i"
 	@echo "... src/point.s"
+	@echo "... src/pre.o"
+	@echo "... src/pre.i"
+	@echo "... src/pre.s"
 	@echo "... src/quick-sort.o"
 	@echo "... src/quick-sort.i"
 	@echo "... src/quick-sort.s"
@@ -399,6 +516,9 @@ help:
 	@echo "... src/support.o"
 	@echo "... src/support.i"
 	@echo "... src/support.s"
+	@echo "... src/type-def.o"
+	@echo "... src/type-def.i"
+	@echo "... src/type-def.s"
 	@echo "... src/unions.o"
 	@echo "... src/unions.i"
 	@echo "... src/unions.s"

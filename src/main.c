@@ -39,6 +39,18 @@ void unions();
 // 函数声明：位域
 void bit_filed();
 
+// 函数声明：类型定义
+void type_def();
+
+// 函数声明：输入输出
+void io();
+
+void file();
+
+void read();
+
+void pre();
+
 int main() {
     /* int balance[] = {1000, 2, 3, 7, 50}; */
 
@@ -61,6 +73,6 @@ int main() {
         printf("Element[%d] = %d\n", i, balance[i]);
     }
     */
-    bit_filed();
+    pre();
     return 0;
 }

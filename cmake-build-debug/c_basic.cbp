@@ -84,10 +84,19 @@
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/day-enum.c">
 			<Option target="c_basic"/>
 		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/file.c">
+			<Option target="c_basic"/>
+		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/io.c">
+			<Option target="c_basic"/>
+		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/main.c">
 			<Option target="c_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/point.c">
+			<Option target="c_basic"/>
+		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/pre.c">
 			<Option target="c_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/quick-sort.c">
@@ -100,6 +109,9 @@
 			<Option target="c_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/support.c">
+			<Option target="c_basic"/>
+		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/type-def.c">
 			<Option target="c_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/unions.c">

@@ -174,6 +174,58 @@ CMakeFiles/c_basic.dir/src/bit-fields.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/bit-fields.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/bit-fields.c -o CMakeFiles/c_basic.dir/src/bit-fields.c.s
 
+CMakeFiles/c_basic.dir/src/type-def.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/type-def.c.o: ../src/type-def.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/c_basic.dir/src/type-def.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/type-def.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/type-def.c
+
+CMakeFiles/c_basic.dir/src/type-def.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/type-def.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/type-def.c > CMakeFiles/c_basic.dir/src/type-def.c.i
+
+CMakeFiles/c_basic.dir/src/type-def.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/type-def.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/type-def.c -o CMakeFiles/c_basic.dir/src/type-def.c.s
+
+CMakeFiles/c_basic.dir/src/io.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/io.c.o: ../src/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/c_basic.dir/src/io.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/io.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/io.c
+
+CMakeFiles/c_basic.dir/src/io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/io.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/io.c > CMakeFiles/c_basic.dir/src/io.c.i
+
+CMakeFiles/c_basic.dir/src/io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/io.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/io.c -o CMakeFiles/c_basic.dir/src/io.c.s
+
+CMakeFiles/c_basic.dir/src/file.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/file.c.o: ../src/file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/c_basic.dir/src/file.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/file.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/file.c
+
+CMakeFiles/c_basic.dir/src/file.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/file.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/file.c > CMakeFiles/c_basic.dir/src/file.c.i
+
+CMakeFiles/c_basic.dir/src/file.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/file.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/file.c -o CMakeFiles/c_basic.dir/src/file.c.s
+
+CMakeFiles/c_basic.dir/src/pre.c.o: CMakeFiles/c_basic.dir/flags.make
+CMakeFiles/c_basic.dir/src/pre.c.o: ../src/pre.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/c_basic.dir/src/pre.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_basic.dir/src/pre.c.o   -c /Users/yangyang/workspace/personal/c-basic/src/pre.c
+
+CMakeFiles/c_basic.dir/src/pre.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basic.dir/src/pre.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangyang/workspace/personal/c-basic/src/pre.c > CMakeFiles/c_basic.dir/src/pre.c.i
+
+CMakeFiles/c_basic.dir/src/pre.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basic.dir/src/pre.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangyang/workspace/personal/c-basic/src/pre.c -o CMakeFiles/c_basic.dir/src/pre.c.s
+
 # Object files for target c_basic
 c_basic_OBJECTS = \
 "CMakeFiles/c_basic.dir/src/main.c.o" \
@@ -184,7 +236,11 @@ c_basic_OBJECTS = \
 "CMakeFiles/c_basic.dir/src/str.c.o" \
 "CMakeFiles/c_basic.dir/src/struct.c.o" \
 "CMakeFiles/c_basic.dir/src/unions.c.o" \
-"CMakeFiles/c_basic.dir/src/bit-fields.c.o"
+"CMakeFiles/c_basic.dir/src/bit-fields.c.o" \
+"CMakeFiles/c_basic.dir/src/type-def.c.o" \
+"CMakeFiles/c_basic.dir/src/io.c.o" \
+"CMakeFiles/c_basic.dir/src/file.c.o" \
+"CMakeFiles/c_basic.dir/src/pre.c.o"
 
 # External object files for target c_basic
 c_basic_EXTERNAL_OBJECTS =
@@ -198,9 +254,13 @@ c_basic: CMakeFiles/c_basic.dir/src/str.c.o
 c_basic: CMakeFiles/c_basic.dir/src/struct.c.o
 c_basic: CMakeFiles/c_basic.dir/src/unions.c.o
 c_basic: CMakeFiles/c_basic.dir/src/bit-fields.c.o
+c_basic: CMakeFiles/c_basic.dir/src/type-def.c.o
+c_basic: CMakeFiles/c_basic.dir/src/io.c.o
+c_basic: CMakeFiles/c_basic.dir/src/file.c.o
+c_basic: CMakeFiles/c_basic.dir/src/pre.c.o
 c_basic: CMakeFiles/c_basic.dir/build.make
 c_basic: CMakeFiles/c_basic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable c_basic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable c_basic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_basic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
