@@ -16,4 +16,4 @@ add_executable(c_basic
         src/type-def.c
         src/io.c
         src/file.c
-        src/pre.c src/head/ch.h src/header.h)
+        src/pre.c src/head/ch.h src/header.h src/cast.c)

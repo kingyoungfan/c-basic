@@ -1,3 +1,0 @@
-/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/yangyang/workspace/personal/c-basic/cmake-build-debug/CMakeFiles/c_basic.dir
