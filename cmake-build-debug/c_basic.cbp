@@ -87,6 +87,12 @@
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/file.c">
 			<Option target="c_basic"/>
 		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/head/ch.h">
+			<Option target="c_basic"/>
+		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/header.h">
+			<Option target="c_basic"/>
+		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/c-basic/src/io.c">
 			<Option target="c_basic"/>
 		</Unit>

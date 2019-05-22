@@ -52,27 +52,6 @@ void read();
 void pre();
 
 int main() {
-    /* int balance[] = {1000, 2, 3, 7, 50}; */
-
-    /*
-    count = 5;
-    write_extern();
-    int a = 5, b = 19;
-    int ret = max(a, b);
-    printf("Max value is : %d\n", ret);
-     */
-    /*
-    quick_sort(balance, 5);
-    for (int i = 0; i < 5; ++i) {
-        printf("Element[%d] = %d\n", i, balance[i]);
-    }
-     */
-    /*
-    quick_sort_recursive(balance, 0, 4);
-    for (int i = 0; i < 5; ++i) {
-        printf("Element[%d] = %d\n", i, balance[i]);
-    }
-    */
     pre();
     return 0;
 }

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/yangyang/workspace/personal/c-basic/src/main.c
+stdio.h
+-
+
 /Users/yangyang/workspace/personal/c-basic/src/pre.c
 stdio.h
 -
