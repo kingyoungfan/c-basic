@@ -1,19 +1,7 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.15)
 project(c_basic C)
 
 set(CMAKE_C_STANDARD 11)
+aux_source_directory(src DIR_SRCS)
 
-add_executable(c_basic
-        src/main.c
-        src/support.c
-        src/quick-sort.c
-        src/day-enum.c
-        src/point.c
-        src/str.c
-        src/struct.c
-        src/unions.c
-        src/bit-fields.c
-        src/type-def.c
-        src/io.c
-        src/file.c
-        src/pre.c src/head/ch.h src/header.h src/cast.c)
+add_executable(c_basic ${DIR_SRCS})

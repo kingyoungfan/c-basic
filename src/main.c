@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 int count;
 
@@ -47,11 +48,19 @@ void io();
 
 void file();
 
-void read();
+void read0();
 
 void pre();
 
+// 函数声明：类型转换
+void cast();
+
+// 函数申明：错误
+void error();
+
+void pwd();
+
 int main() {
-    pre();
+    point_test();
     return 0;
 }

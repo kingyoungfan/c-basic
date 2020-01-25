@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <unistd.h>
 
 void file() {
     FILE *fp = NULL;
@@ -14,7 +15,7 @@ void file() {
     printf("code:%d", code);
 }
 
-void read() {
+void read0() {
     FILE *fp = NULL;/* 定义一个文件指针*/
     char buff[255];
     fp = fopen("/Users/yangyang/hello.groovy", "r");
@@ -27,5 +28,12 @@ void read() {
     fgets(buff, 255, (FILE *) fp);
     printf("3: %s\n", buff);
     fclose(fp);
+
+}
+
+void pwd(){
+    char buffer[100];
+    getcwd(buffer, sizeof(buffer));
+    printf("当前路径：%s\n",buffer);
 
 }
