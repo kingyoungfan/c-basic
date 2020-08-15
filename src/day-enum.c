@@ -14,7 +14,7 @@ enum DAY {
 
 enum season {
     spring,
-    sumer = 3,
+    summer = 3,
     autumn,
     winter
 };

@@ -60,7 +60,16 @@ void error();
 
 void pwd();
 
+void pointer();
+
+void print_address();
+
+void pointer_calc();
+void print_array();
+void test_get_word();
+// 使用指针交换两个值
+void test_swap();
 int main() {
-    point_test();
+    test_get_word();
     return 0;
 }
