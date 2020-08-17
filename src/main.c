@@ -70,6 +70,6 @@ void test_get_word();
 // 使用指针交换两个值
 void test_swap();
 int main() {
-    test_get_word();
+    print_address();
     return 0;
 }

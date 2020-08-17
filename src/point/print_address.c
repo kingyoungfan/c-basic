@@ -2,6 +2,7 @@
 // Created by Mr.Yang on 8/10/20.
 //
 #include <stdio.h>
+#include <stdlib.h>
 
 int global_variable;
 static int file_static_variable;
@@ -11,10 +12,6 @@ void func1() {
     static int func1_static_variable;
     printf("&func1_variable.. %p\n", &func1_variable);
     printf("&func1_static_variable.. %p\n", &func1_static_variable);
-    char *str = "abc";
-    printf("str... %p\n", str);
-    printf("&str... %p\n", &str);
-    printf("*str... %c\n", *str);
 }
 
 void func2() {
@@ -31,6 +28,18 @@ void print_address() {
     // 输出指向函数的指针的地址
     printf("&func1.. %p\n", &func1);
     printf("&func2.. %p\n", &func2);
+
     // 输出字符串常量的地址
-    printf("string literal..%p\n", "abc");
+    printf("string literal..%p\n", &"abc");
+    // 输出全局变量的地址
+    printf("&global_variable..%p\n", &global_variable);
+    // 输出文件内的static变量的地址
+    printf("&file_static_variable..%p\n", &file_static_variable);
+
+    // 输出局部变量
+    func1();
+    func2();
+
+    p = malloc(sizeof(int));
+    printf("&p is malloc address..%p\n", &p);
 }
