@@ -23,8 +23,6 @@ void print_address() {
 
     // 声明指针变量
     int *p;
-    func1();
-    func2();
     // 输出指向函数的指针的地址
     printf("&func1.. %p\n", &func1);
     printf("&func2.. %p\n", &func2);
