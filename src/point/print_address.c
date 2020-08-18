@@ -41,3 +41,10 @@ void print_address() {
     p = malloc(sizeof(int));
     printf("&p is malloc address..%p\n", &p);
 }
+
+void fun_modify_str() {
+    char *c = "abc";
+    c[3] = '1';
+
+    printf("c==%s\n", c);
+}

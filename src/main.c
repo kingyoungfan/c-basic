@@ -69,7 +69,13 @@ void print_array();
 void test_get_word();
 // 使用指针交换两个值
 void test_swap();
+void fun_modify_str();
+void auto_variable_test();
+void test_stackoverflow();
+void test_free();
+void alignment();
+void byte_order();
 int main() {
-    print_address();
+    byte_order();
     return 0;
 }
