@@ -75,7 +75,12 @@ void test_stackoverflow();
 void test_free();
 void alignment();
 void byte_order();
+void declaration();
+void type_name();
+void praisel();
+void pizza();
+void printout();
 int main() {
-    byte_order();
+    printout();
     return 0;
 }
