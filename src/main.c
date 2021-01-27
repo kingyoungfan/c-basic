@@ -80,7 +80,9 @@ void type_name();
 void praisel();
 void pizza();
 void printout();
+void output_argument();
+void variable_array();
 int main() {
-    printout();
+    variable_array();
     return 0;
 }
