@@ -7,8 +7,9 @@
 #include <stdio.h>
 
 void pointer_calc() {
+    // int 类型是 4 个字节，32 位。
     int hoge;
-    int *hoge_p = 0;
+    int *hoge_p = NULL;
     // 将指向hoge的指针赋值给hoge_p
     hoge_p = &hoge;
 

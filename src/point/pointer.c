@@ -23,16 +23,19 @@ void pointer() {
     printf("&hoge..%p\n", &hoge);
     printf("&piyo..%p\n", &piyo);
     printf("&hoge_p..%p\n", &hoge_p);
-    printf("hoge_p==>..%p\n", hoge_p);
+    printf("hoge_p==>..%p\n\n\n", hoge_p);
+    // 下面这行代码抛出异常，因为指针为空，无法取到指针的值
+    printf("*hoge_p..%d\n", *hoge_p);
+
 
     /** 将hoge的地址赋值给hoge_p*/
     hoge_p = &hoge;
     printf("hoge_p..%p\n", hoge_p);
-    printf("&hoge_p===>..%p\n", &hoge_p);
+    printf("&hoge_p===>..%p\nn\n", &hoge_p);
 
     /**通过hoge_p输出hoge的内容*/
     /*在指针前面加上*，可以表示指针指向的变量*/
-    printf("hoge_p..%d\n", *hoge_p);
+    printf("*hoge_p..%d\n", *hoge_p);
     *hoge_p = 10;
     printf("hoge..%d\n", hoge);
 }

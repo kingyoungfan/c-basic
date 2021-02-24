@@ -19,7 +19,7 @@ void unions() {
     data.i = 10;
     printf("data.i: %d\n", data.i);
 
-    data.f = 222.5;
+    data.f = 222.5F;
     printf("data.f: %f\n", data.f);
 
     strcpy(data.str, "C Programming");

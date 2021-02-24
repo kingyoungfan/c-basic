@@ -12,8 +12,11 @@ int get_word(char *buf, int buf_size, FILE *fp) {
     int len;
     int ch;
     /* 跳过读取空白字符 */
-    while ((ch = getc(fp)) != EOF
-           && !isalnum(ch));
+    while ((ch = getc(fp)) != EOF && !isalnum(ch));
+    if (ch == EOF) {
+        return EOF;
+    }
+
     // ch中保存了单词的初始字符
     len = 0;
     do {
@@ -31,7 +34,7 @@ int get_word(char *buf, int buf_size, FILE *fp) {
 
 void test_get_word() {
     char buf[256];
-    while (get_word(buf, 256, stdin) != EOF) {
+    while (get_word(&buf[0], 256, stdin) != EOF) {
         printf("<<%s>>\n", buf);
     }
 }
